@@ -5,10 +5,10 @@
 }
 
 header {
-     background-image: url(../img/bg.svg);
-     height: 100vh;
-     background-size: cover;
-     background-position: center;
+    background-image: url(../img/bg.svg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
 label {
@@ -89,9 +89,75 @@ label {
     transition: width .3s; 
 }
 
+
+@media only screen and (max-width:700px){
+body {
+    overflow-x: hidden;
+
+}
+    header {
+    text-align: center;
+    width: 100%;
+    background-image: url(../img/bg-mobile.png);
+    background-size:  100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-y: 100px;
+    height: 70vh
+}
+
+.title {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+header .title {
+    margin-top: 120px;
+    align-items: center;
+}
+
+header a {
+    display: none;
+}
+
+header .title h1 {
+    font-size: 50px;
+}
+header .title p {
+    font-size: 10px;
+}
+
+.media iframe {
+    border: black 1px solid;
+    width: 300px;
+    height: 200px;
+}
+
+}
+
+/* END HEADER */
+
+
+.content {
+    width: 100%;
+    color: lightslategray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.text {
+    margin: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.media {
+    text-align: center;
+}
+
 .footer {
     background-color:#484848;
-    height: 140px;
 }
 .footer-bottom {
     color: whitesmoke;
@@ -100,39 +166,11 @@ label {
 }
 
 .footer-content {
- margin-top: 10px;
+    margin-top: 10px;
 }
 
 .footer-bottom p {
 font-size: 16px;
 margin-bottom: 10px;
 padding-top: 10px;
-}
-
-.content {
-    text-align: center;
-    color: lightslategray;
-}
-
-.content p {
-    font-size: 16px;
-    padding: 20px;
-}
-
-@media only screen and (max-width:700px){
-header {
-    text-align: center;
-    width: 100%;
-}
-
-header {
-    background-image: none;
-   
-}
-
-header a {
-    display: none;
-}
-
-
 }
