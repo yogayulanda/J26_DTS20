@@ -11,46 +11,6 @@ header {
     background-position: center;
 }
 
-label {
-    margin: 10px;
-    font-size: 26px;
-    line-height: 70px;
-    display: none;
-}
-
-.main ul {
-    float: right;
-    list-style: none;
-    margin-top: 30px;
-    margin-right: 45px;
-}
-
-.main ul li {
-    display: inline-block;
-    font-size: 16px;
-}
-
-.main ul li a {
-    text-decoration: none;
-    color: black;
-    padding: 5px 20px;
-    font-size: 16px;
-}
-
-
-.main .logo img {
-    float: left;
-    width: 150px;
-    height: auto;
-    margin-left: 30px;
-    margin-top: 10px;
-}
-
-.main {
-    max-width: 1200px;
-    
-}
-
 .title {
     position: absolute;
     top: 35%;

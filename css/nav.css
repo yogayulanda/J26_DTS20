@@ -1,0 +1,85 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+ 
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  max-width: 120px;
+  transform: translateY(10%);
+  height: auto;
+}
+
+.header-left {
+  float: left;
+}
+
+
+.topnav .nav-left {
+  float: left;
+}
+
+.topnav .nav-right {
+  float: right;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 2;
+  transition: background 250ms ease;
+}
+
+.topnav .nav-right a {
+  margin-top: 10px;
+}
+
+.topnav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.topnav a.active {
+  background-color: rgb(74, 114, 173);
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+

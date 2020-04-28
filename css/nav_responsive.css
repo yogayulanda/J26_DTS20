@@ -1,0 +1,49 @@
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  /* Tambahkan CSS untuk header-right */
+  .header-right {
+    display: none;
+  }
+
+  .nav-left a {
+    /* display: none; */
+    text-align: center;
+  }
+
+  .logo {
+    max-width: 100px;
+    height: auto;
+  }
+  .topnav .nav-right a {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+
+
+  .topnav .nav-left,
+  .topnav .nav-right {
+    float: none;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .topnav.responsive .nav-left a {
+    display: inline-block;
+  }
+}
