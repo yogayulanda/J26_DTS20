@@ -32,6 +32,7 @@
 
   .topnav.responsive {
     position: relative;
+    background-color: #00B0FF;
   }
   .topnav.responsive .icon {
     position: absolute;
